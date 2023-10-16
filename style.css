@@ -54,9 +54,12 @@ main{
     align-items: center;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.803);
-    transition:color 1s;
+    transform: translateX(-100%);
+    transition: 1s;
 }
-
+.visible {
+    transform: translateX(0); /* Muove il testo al centro */
+}
 h1{
     font-weight: 900;
     font-size: 100px;
