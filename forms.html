@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEBDEV CREATIONS</title>
+        <link rel="stylesheet" href="forms.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <div class="login">
+        <h2>Login</h2>
+        <form action="" class="form"> 
+            <div>
+                <label for="fname">Nome:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="Iname">Cognome:</label>
+                <input type="text" id="Iname" name="Iname">
+            </div>
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <div>
+                
+                <label for="dataNascita">Data di nascita:</label>
+                <input type="date" id="dataNascita">
+            
+                <label for="comune">Comune:</label>
+                <select name="" id="comune">
+                    <option value=""></option>
+                    <option value="veroli">Veroli</option>
+                    <option value="boville">Boville</option>
+                    <option value="sora">Sora</option>
+                    <option value="isola">Isola Del Liri</option>
+                </select>
+            
+                <label for="provincia">Provincia:</label>
+                <select name="" id="provincia">
+                    <option value=""></option>
+                    <option value="frosinone">Frosinone</option>
+                    <option value="rieti">Rieti</option>
+                    <option value="roma">Roma</option>
+                    <option value="viterbo">Viterbo</option>
+                </select>
+            
+            </div>
+
+            <div>
+
+                <p>Sesso</p>
+            
+                <input type="radio" name="sesso" id="femmina">
+                <label for="femmina">Femmina</label>
+                <input type="radio" name="sesso" id="maschio">
+                <label for="maschio">Maschio</label>
+            
+            </div>
+
+            <div>
+
+                <label for="condizioni">Accetto termini e condizioni:</label>
+                <input type="checkbox" id="condizioni">
+                
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+
+</body>
+</html>

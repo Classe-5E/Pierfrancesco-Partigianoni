@@ -36,7 +36,7 @@ ul li a{
     padding: 8px 16px;
     border: solid 2px white;
     border-radius: 4px;
-    transition: .3s;
+    transition: 1s;
     font-weight: 600;
 }
 ul li a:hover{
@@ -54,11 +54,6 @@ main{
     align-items: center;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.803);
-    transform: translateX(-100%);
-    transition: 1s;
-}
-.visible {
-    transform: translateX(0); /* Muove il testo al centro */
 }
 h1{
     font-weight: 900;
