@@ -8,7 +8,7 @@ a{
     font-family: 'Poppins' ;
 }
 body{
-    background-image: url(../immagine_spiaggia.jpg);
+    background-image: url(./media/immagine_spiaggia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
