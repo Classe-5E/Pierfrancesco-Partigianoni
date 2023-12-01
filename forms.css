@@ -16,3 +16,8 @@ background-color: grey;
     flex-direction: column;
     gap: 8px;
 }
+
+.flex-row{
+    display: flex;
+    gap: 1em;
+}
